@@ -5,6 +5,7 @@
 
 body {
     display: flex;
+    margin: 0;
 }
 
 #left {
@@ -28,4 +29,27 @@ body {
     background-color: #1d1d1d;
     height: 91vh;
     width: 84vw;
+}
+
+#menuIcon{
+    fill: black;
+    height: 35px;
+    width: 35px;
+    margin:20px;
+}
+
+.sidebar{
+    width: 250px;
+    height: 100vh;
+    background-color:#1d1d1d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.sidebarItems{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
