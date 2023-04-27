@@ -37,24 +37,26 @@ body {
 }
 
 #bottom {
+    display: flex;
     background-color: #1d1d1d;
     height: 91vh;
     width: 84vw;
 }
 
-#songbox {
+.songbox {
     display: flex;
     flex-direction: column;
     margin-top: 10vh;
     margin-left: 2vw;
-    border-radius: 20px;
+    border-radius: 5%;
     background-color: #181818;
     height: 35vh;
     width: 12vw;
     box-shadow: 2px 4px 10px #000000;
+    overflow: hidden;
 }
 
-#songbox:hover {
+.songbox:hover {
     animation-name: songhover;
     animation-duration: 0.5s;
     background-color: #282828;
@@ -62,18 +64,18 @@ body {
 }
 
 .inboximg {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border-radius: 5%;
     align-self: center;
-    height: 150px;
-    width: 150px;
+    height: auto;
+    width: 80%;
 }
 
 .inboxtext {
-    margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 @keyframes songhover {
